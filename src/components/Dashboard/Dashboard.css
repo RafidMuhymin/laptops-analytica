@@ -1,0 +1,16 @@
+.chart-container {
+  gap: 2.5rem;
+  color: teal;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.chart-container > section {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
