@@ -23,6 +23,7 @@ export default function Intro() {
           className="btn p-3 fs-5"
           style={{
             backgroundColor: "#b260ff",
+            maxWidth: "fit-content",
           }}
         >
           {/* Fredoka Font Issue (If V comes after I) */}
