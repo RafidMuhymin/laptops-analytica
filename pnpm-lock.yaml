@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@iconify/react': ^3.2.1
   '@testing-library/jest-dom': ^5.14.1
   '@testing-library/react': ^12.0.0
   '@testing-library/user-event': ^13.2.1
@@ -12,6 +13,7 @@ specifiers:
   web-vitals: ^2.1.0
 
 dependencies:
+  '@iconify/react': 3.2.1
   '@testing-library/jest-dom': 5.16.3
   '@testing-library/react': 12.1.4_react-dom@17.0.2+react@17.0.2
   '@testing-library/user-event': 13.5.0
@@ -1511,6 +1513,10 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: false
+
+  /@iconify/react/3.2.1:
+    resolution: {integrity: sha512-yKzixjC9ct9RC/aSGo1OGxkG2rpfhlr/urRz6k2YZlIBzn92PBTlqtSx8o8dFYEorr3eUFSCBZFzBy1yw5jsAA==}
     dev: false
 
   /@istanbuljs/load-nyc-config/1.1.0:

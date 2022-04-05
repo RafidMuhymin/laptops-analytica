@@ -1,3 +1,4 @@
+import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 import useReviews from "../../hooks/useReviews";
 
@@ -21,7 +22,11 @@ export default function Reviews({ count }) {
               <h3 className="text-center">{name}</h3>
             </div>
 
-            <h4>{rating}*</h4>
+            <h4>
+              {Array.from({ length: rating }).map(() => (
+                <Icon icon="emojione:star" />
+              ))}
+            </h4>
 
             <p className="fs-5">{review}</p>
           </div>
