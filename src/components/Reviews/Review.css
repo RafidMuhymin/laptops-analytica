@@ -1,0 +1,9 @@
+.review {
+  grid-template-columns: 1fr 1fr 5fr;
+}
+
+@media screen and (max-width: 768px) {
+  .review {
+    grid-template-columns: 1fr;
+  }
+}
