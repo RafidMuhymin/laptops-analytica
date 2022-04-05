@@ -18,12 +18,12 @@ import "./Dashboard.css";
 
 export default function Dashboard() {
   return (
-    <main className="chart-container p-5">
+    <main className="chart-container p-4">
       {/* Month Wise Sell - LineChart */}
       <section>
         <h2>Month Wise Sell</h2>
 
-        <LineChart width={300} height={300} data={data}>
+        <LineChart width={295} height={295} data={data}>
           <Line type="monotone" dataKey="sell" stroke="#8884d8" />
           <CartesianGrid stroke="#ccc" />
           <XAxis dataKey="month" />
@@ -38,8 +38,8 @@ export default function Dashboard() {
         <h2>Investment VS Revenue</h2>
 
         <AreaChart
-          width={300}
-          height={300}
+          width={295}
+          height={295}
           data={data}
           margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
         >
@@ -79,7 +79,7 @@ export default function Dashboard() {
       <section>
         <h2>Investment VS Revenue</h2>
 
-        <BarChart width={300} height={300} data={data}>
+        <BarChart width={295} height={295} data={data}>
           <Bar dataKey="investment" fill="#8884d8" />
           <Bar dataKey="revenue" fill="#82ca9d" />
           <CartesianGrid strokeDasharray="3 3" />
@@ -94,7 +94,7 @@ export default function Dashboard() {
       <section>
         <h2>Investment VS Revenue</h2>
 
-        <PieChart width={300} height={300}>
+        <PieChart width={295} height={295}>
           <Pie
             data={data}
             dataKey="investment"
