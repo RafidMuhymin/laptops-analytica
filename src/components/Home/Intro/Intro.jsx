@@ -18,6 +18,23 @@ export default function Intro() {
           voluptatum nemo corporis officia adipisci. Possimus placeat fugiat
           totam consequatur.
         </p>
+
+        <button
+          className="btn p-3 fs-5"
+          style={{
+            backgroundColor: "#b260ff",
+          }}
+        >
+          {/* Fredoka Font Issue (If V comes after I) */}
+          <span
+            style={{
+              paddingRight: "0.05rem",
+            }}
+          >
+            LI
+          </span>
+          VE DEMO
+        </button>
       </div>
 
       <div>
