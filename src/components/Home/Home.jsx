@@ -1,11 +1,11 @@
+import Reviews from "../Reviews/Reviews";
 import Intro from "./Intro/Intro";
-import Reviews from "./Reviews/Reviews";
 
 export default function Home() {
   return (
     <main>
       <Intro />
-      <Reviews />
+      <Reviews count={3} />
     </main>
   );
 }
