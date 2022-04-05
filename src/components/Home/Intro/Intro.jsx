@@ -1,14 +1,9 @@
+import "./Intro.css";
+
 export default function Intro() {
   return (
-    <section
-      className="p-4 gap-5"
-      style={{
-        display: "grid",
-        gridTemplateColumns: "1.75fr 1fr",
-        alignItems: "center",
-      }}
-    >
-      <div className="px-3">
+    <section className="intro d-grid p-4 gap-5 align-items-center">
+      <div className="px-3 d-flex flex-column gap-3">
         <h1>
           <span className="lh-lg" style={{ color: "teal" }}>
             LAPTOPS ANALYTICA

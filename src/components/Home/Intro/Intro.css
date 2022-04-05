@@ -1,0 +1,15 @@
+.intro {
+  grid-template-columns: 1.5fr 1fr;
+}
+
+@media screen and (max-width: 960px) {
+  .intro {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    grid-template-columns: 1fr;
+  }
+}
