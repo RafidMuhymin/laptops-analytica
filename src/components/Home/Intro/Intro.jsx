@@ -13,10 +13,10 @@ export default function Intro() {
         </h1>
 
         <p className="fs-4">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet eaque
-          est vitae mollitia eum quibusdam, alias libero ipsum eveniet ipsam,
-          voluptatum nemo corporis officia adipisci. Possimus placeat fugiat
-          totam consequatur.
+          Laptops Analytica, a laptop shop situated nowhere in the world but
+          just in the context of the assignment. We have best world-class
+          laptops of your imagination to meet your needs. Don't look too much at
+          the shiny laptops. Otherwise, you'll get mad at them!
         </p>
 
         <button
