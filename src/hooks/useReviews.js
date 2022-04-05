@@ -7,6 +7,7 @@ export default function useReviews(count) {
     fetch("/data/reviews.json")
       .then((res) => res.json())
       .then((data) => {
+        // Slice data if all reviews are not required
         setReviews(data.slice(0, count));
       });
   }, [count]);
