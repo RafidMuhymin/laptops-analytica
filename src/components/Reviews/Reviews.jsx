@@ -8,7 +8,7 @@ export default function Reviews({ count }) {
 
   return (
     <section>
-      <h2 className="px-4 mt-4 fs-1 text-center">Customer Reviews</h2>
+      <h2 className="px-4 mt-4 fs-1 text-center">What Our Customers Say!</h2>
 
       <div className="p-4 d-flex flex-column gap-3">
         {reviews.map(({ id, name, image, rating, review }) => (
