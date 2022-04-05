@@ -13,10 +13,9 @@ export default function Intro() {
         </h1>
 
         <p className="fs-4">
-          Laptops Analytica, a laptop shop situated nowhere in the world but
-          just in the context of the assignment. We have best world-class
-          laptops of your imagination to meet your needs. Don't look too much at
-          the shiny laptops. Otherwise, you'll get mad at them!
+          Laptops Analytica, a laptop shop in the heart of Bangladesh. We have
+          the best world-class, performant, shiny and durable laptops to meet
+          all of your needs at just the right price!
         </p>
 
         <button
