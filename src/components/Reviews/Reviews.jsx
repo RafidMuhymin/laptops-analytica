@@ -33,8 +33,8 @@ export default function Reviews({ count }) {
             </div>
 
             <h4 className="text-center">
-              {Array.from({ length: rating }).map(() => (
-                <Icon icon="emojione:star" />
+              {Array.from({ length: rating }).map((empty, i) => (
+                <Icon key={i} icon="emojione:star" />
               ))}
             </h4>
 
