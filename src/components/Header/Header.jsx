@@ -4,7 +4,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <header>
-      <nav className="navbar d-flex p-3 justify-content-center gap-4">
+      <nav className="navbar d-flex p-4 justify-content-center gap-4">
         <NavLink to={"/"}>HOME</NavLink>
         <NavLink to={"/reviews"}>REVIEWS</NavLink>
         <NavLink to={"/dashboard"}>DASHBOARD</NavLink>
