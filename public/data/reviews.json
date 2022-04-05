@@ -1,35 +1,41 @@
 [
   {
+    "id": "1",
     "name": "Kodack",
     "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/b46d8551-09e5-4f10-9478-880915170b93._CR0,0,90,90_UX110_.jpg",
     "rating": 5,
     "review": "Way too expensive, but also the best laptop I've ever owned."
   },
   {
+    "id": "2",
     "name": "Kodack",
     "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/b46d8551-09e5-4f10-9478-880915170b93._CR0,0,90,90_UX110_.jpg",
     "rating": 5,
     "review": "Way too expensive, but also the best laptop I've ever owned."
   },
   {
+    "id": "3",
     "name": "Kodack",
     "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/b46d8551-09e5-4f10-9478-880915170b93._CR0,0,90,90_UX110_.jpg",
     "rating": 5,
     "review": "Way too expensive, but also the best laptop I've ever owned."
   },
   {
+    "id": "4",
     "name": "Kodack",
     "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/b46d8551-09e5-4f10-9478-880915170b93._CR0,0,90,90_UX110_.jpg",
     "rating": 5,
     "review": "Way too expensive, but also the best laptop I've ever owned."
   },
   {
+    "id": "5",
     "name": "Kodack",
     "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/b46d8551-09e5-4f10-9478-880915170b93._CR0,0,90,90_UX110_.jpg",
     "rating": 5,
     "review": "Way too expensive, but also the best laptop I've ever owned."
   },
   {
+    "id": "6",
     "name": "Kodack",
     "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/b46d8551-09e5-4f10-9478-880915170b93._CR0,0,90,90_UX110_.jpg",
     "rating": 5,
