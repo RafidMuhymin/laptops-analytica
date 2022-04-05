@@ -15,3 +15,7 @@
 .navbar a.active {
   background-size: 100% 0.25rem;
 }
+
+header {
+  background-color: #fff;
+}
