@@ -1,4 +1,4 @@
-const data = [
+const chartData = [
   {
     month: "Mar",
     investment: 100000,
@@ -37,4 +37,4 @@ const data = [
   },
 ];
 
-export default data;
+export default chartData;

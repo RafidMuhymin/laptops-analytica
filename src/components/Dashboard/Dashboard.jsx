@@ -13,7 +13,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import data from "./data";
+import chartData from "../../data/chartData";
 import "./Dashboard.css";
 
 export default function Dashboard() {
@@ -23,7 +23,7 @@ export default function Dashboard() {
       <section>
         <h2>Month Wise Sell</h2>
 
-        <LineChart width={295} height={295} data={data}>
+        <LineChart width={295} height={295} data={chartData}>
           <Line type="monotone" dataKey="sell" stroke="#8884d8" />
           <CartesianGrid stroke="#ccc" />
           <XAxis dataKey="month" />
@@ -40,7 +40,7 @@ export default function Dashboard() {
         <AreaChart
           width={295}
           height={295}
-          data={data}
+          data={chartData}
           margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
         >
           <Area
@@ -79,7 +79,7 @@ export default function Dashboard() {
       <section>
         <h2>Investment VS Revenue</h2>
 
-        <BarChart width={295} height={295} data={data}>
+        <BarChart width={295} height={295} data={chartData}>
           <Bar dataKey="investment" fill="#8884d8" />
           <Bar dataKey="revenue" fill="#82ca9d" />
           <CartesianGrid strokeDasharray="3 3" />
@@ -96,7 +96,7 @@ export default function Dashboard() {
 
         <PieChart width={295} height={295}>
           <Pie
-            data={data}
+            data={chartData}
             dataKey="investment"
             nameKey="month"
             cx="50%"
@@ -105,7 +105,7 @@ export default function Dashboard() {
             fill="#8884d8"
           />
           <Pie
-            data={data}
+            data={chartData}
             dataKey="revenue"
             nameKey="month"
             cx="50%"
