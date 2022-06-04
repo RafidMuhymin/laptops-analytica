@@ -1,8 +1,6 @@
 # Laptops Analytica
 
-## GitHub Link: https://github.com/programming-hero-web-course-4/product-analysis-website-RafidMuhymin
-
-## Live Link: https://meek-biscochitos-375235.netlify.app/
+## Live URL: https://meek-biscochitos-375235.netlify.app/
 
 ## What I have done in four steps
 
